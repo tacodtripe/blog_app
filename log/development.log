@@ -4488,3 +4488,28 @@ Processing by TagsController#index as HTML
 Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.2ms)
 
 
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/guy/.rbenv/versions/2.7.1/bin/rake:23
+Migrating to AddPaperclipFieldsToArticle (20200902153927)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/guy/.rbenv/versions/2.7.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "articles" ADD "image_file_name" varchar[0m
+  ↳ db/migrate/20200902153927_add_paperclip_fields_to_article.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "articles" ADD "image_content_type" varchar[0m
+  ↳ db/migrate/20200902153927_add_paperclip_fields_to_article.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "articles" ADD "image_file_size" integer[0m
+  ↳ db/migrate/20200902153927_add_paperclip_fields_to_article.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "articles" ADD "image_updated_at" datetime[0m
+  ↳ db/migrate/20200902153927_add_paperclip_fields_to_article.rb:6
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200902153927"]]
+  ↳ /home/guy/.rbenv/versions/2.7.1/bin/rake:23
+  [1m[35m (84.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/guy/.rbenv/versions/2.7.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/guy/.rbenv/versions/2.7.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/guy/.rbenv/versions/2.7.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/guy/.rbenv/versions/2.7.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/guy/.rbenv/versions/2.7.1/bin/rake:23
