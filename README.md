@@ -1,8 +1,8 @@
 # RoR: Blogger Application.
 
 <p align="center">
-  <img width="200" height="150" src="https://raw.githubusercontent.com/tacodtripe/blog_app/features/images/index.png">
-  <img width="200" height="150" src="https://raw.githubusercontent.com/tacodtripe/blog_app/features/images/article_example.png">
+  <img width="600" height="450" src="https://raw.githubusercontent.com/tacodtripe/blog_app/features/images/index.png">
+  <img width="600" height="450" src="https://raw.githubusercontent.com/tacodtripe/blog_app/features/images/article_example.png">
 </p>
 
 ## About the project
