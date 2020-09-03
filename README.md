@@ -1,12 +1,17 @@
 # RoR: Blogger Application.
 
+<p align="center">
+  <img width="200" height="150" src="https://raw.githubusercontent.com/tacodtripe/blog_app/features/images/index.png">
+  <img width="200" height="150" src="https://raw.githubusercontent.com/tacodtripe/blog_app/features/images/article_example.png">
+</p>
+
 ## About the project
   First RoR project from the Microverse curriculum, implementation of the RoR framework to create a basic blog application.
 
 ## Built With
   Ruby on Rails
   
-## Instructions to use the linter
+## Instructions to use the web application
 1. Clone the repository to your local machine.
 
 2. `cd` inside the 'blog_app' folder
